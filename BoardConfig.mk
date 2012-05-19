@@ -17,3 +17,5 @@
 
 # Use the part that is common between all allwinner
 include device/allwinner/common/BoardConfig.mk
+
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/allwinner/zatab/recovery_keys.c
