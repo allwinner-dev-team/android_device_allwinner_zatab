@@ -29,8 +29,8 @@ PRODUCT_PACKAGES := \
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 # This is where we'd set a backup provider if we had one
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
-# Inherit from common device
-$(call inherit-product, device/allwinner/common/device.mk)
+# Inherit from our device
+$(call inherit-product, device/allwinner/zatab/device.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_zatab
