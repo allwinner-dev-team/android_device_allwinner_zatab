@@ -19,3 +19,5 @@
 include device/allwinner/common/BoardConfig.mk
 
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/allwinner/zatab/recovery_keys.c
+
+TARGET_KERNEL_CONFIG := zatab_defconfig
