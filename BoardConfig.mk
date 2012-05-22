@@ -23,3 +23,6 @@ BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/allwinner/zatab/recovery_keys.c
 TARGET_KERNEL_CONFIG := zatab_defconfig
 
 SW_BOARD_USES_GSENSOR_TYPE := bma250
+SW_BOARD_GSENSOR_XY_REVERT := true
+SW_BOARD_GSENSOR_DIRECT_X := true
+SW_BOARD_GSENSOR_DIRECT_Y := true
