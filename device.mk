@@ -26,3 +26,5 @@ DEVICE_PACKAGE_OVERLAYS := device/allwinner/zatab/overlay
 
 $(call inherit-product, device/allwinner/common/device.mk)
 $(call inherit-product-if-exists, vendor/allwinner/zatab/zatab-vendor.mk)
+
+PRODUCT_COPY_FILES += device/allwinner/zatab/init.sun4i.modules.rc:root/init.sun4i.modules.rc

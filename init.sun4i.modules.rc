@@ -1,0 +1,6 @@
+on boot
+	insmod /system/lib/modules/videobuf-core.ko
+	insmod /system/lib/modules/videobuf-dma-contig.ko
+	insmod /system/lib/modules/gc0308.ko
+	insmod /system/lib/modules/gt2005.ko
+	insmod /system/lib/modules/sun4i_csi0.ko
