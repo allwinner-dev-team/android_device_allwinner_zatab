@@ -25,4 +25,4 @@ DEVICE_PACKAGE_OVERLAYS := device/allwinner/zatab/overlay
 #	frameworks/base/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
 $(call inherit-product, device/allwinner/common/device.mk)
-$(call inherit-product-if-exists, vendor/allwinner/zatab/device-vendor.mk)
+$(call inherit-product-if-exists, vendor/allwinner/zatab/zatab-vendor.mk)
