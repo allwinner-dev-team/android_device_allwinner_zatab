@@ -71,7 +71,7 @@ PRODUCT_COPY_FILES := \\
     packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
 # Pick up overlay for features that depend on non-open-source files
-DEVICE_PACKAGE_OVERLAYS := vendor/$VENDOR/$DEVICE/overlay
+DEVICE_PACKAGE_OVERLAYS += vendor/$VENDOR/$DEVICE/overlay
 
 \$(call inherit-product, vendor/$VENDOR/$DEVICE/$DEVICE-vendor-blobs.mk)
 EOF

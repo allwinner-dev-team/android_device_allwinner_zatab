@@ -18,10 +18,10 @@
 #
 # Everything in this directory will become public
 
-DEVICE_PACKAGE_OVERLAYS := device/allwinner/zatab/overlay
-
 $(call inherit-product, device/allwinner/common/device.mk)
 $(call inherit-product-if-exists, vendor/allwinner/zatab/zatab-vendor.mk)
+
+DEVICE_PACKAGE_OVERLAYS += device/allwinner/zatab/overlay
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
