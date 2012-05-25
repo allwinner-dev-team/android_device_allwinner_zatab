@@ -20,12 +20,14 @@
 
 DEVICE_PACKAGE_OVERLAYS := device/allwinner/zatab/overlay
 
-# These are the hardware-specific features
-#PRODUCT_COPY_FILES := \
-#	frameworks/base/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
-
 $(call inherit-product, device/allwinner/common/device.mk)
 $(call inherit-product-if-exists, vendor/allwinner/zatab/zatab-vendor.mk)
+
+# These are the hardware-specific features
+PRODUCT_COPY_FILES += \
+        frameworks/base/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
+        frameworks/base/data/etc/android.hardware.camera.autofocus.xml:system/etc/permissions/android.hardware.camera.autofocus.xml \
+#
 
 PRODUCT_COPY_FILES += \
 	device/allwinner/zatab/init.sun4i.modules.rc:root/init.sun4i.modules.rc \
