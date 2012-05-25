@@ -25,6 +25,7 @@ MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \\
     $OUTDIR/proprietary/lib/libMali.so:obj/lib/libMali.so \\
+    $OUTDIR/proprietary/lib/libUMP.so:obj/lib/libUMP.so \\
 
 PRODUCT_COPY_FILES += \\
 EOF

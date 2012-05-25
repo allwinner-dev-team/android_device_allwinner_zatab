@@ -18,7 +18,7 @@ lib/libUMP.so # apparently there's source for libUMP
 # Hardware HALs
 #lib/hw/audio.primary.exDroid.so # tinyalsa?
 #lib/hw/camera.exDroid.so
-lib/hw/display.sun4i.so # what's this?
+#lib/hw/display.sun4i.so # what's this?
 #lib/hw/gps.exDroid.so # tab has no GPS
 #lib/hw/gralloc.sun4i.so # there's source for gralloc
 #lib/hw/hwcomposer.exDroid.so
@@ -29,4 +29,4 @@ lib/hw/display.sun4i.so # what's this?
 lib/liballwinner-ril.so
 
 # DRM? is this a prop?
-lib/drm/libfwdlockengine.so
+#lib/drm/libfwdlockengine.so
