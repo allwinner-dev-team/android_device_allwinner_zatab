@@ -1,0 +1,5 @@
+key 139   VOLUME_UP
+key 217   VOLUME_DOWN
+key 102   HOME              WAKE
+key 1     BACK              WAKE
+key 115   MENU              WAKE_DROPPED

@@ -33,4 +33,6 @@ PRODUCT_COPY_FILES += \
 	device/allwinner/zatab/init.sun4i.modules.rc:root/init.sun4i.modules.rc \
 	device/allwinner/zatab/config/camera.cfg:system/etc/camera.cfg \
 	device/allwinner/zatab/config/media_profiles.xml:system/etc/media_profiles.xml \
+	device/allwinner/zatab/config/axp20-supplyer.kl:system/usr/keylayout/axp20-supplyer.kl \
+	device/allwinner/zatab/config/sun4i-keyboard.kl:system/usr/keylayout/sun4i-keyboard.kl \
 #
