@@ -4,3 +4,6 @@ on boot
 	insmod /system/lib/modules/gc0308.ko
 	insmod /system/lib/modules/gt2005.ko
 	insmod /system/lib/modules/sun4i_csi0.ko
+
+	#Temporary modules until we get touchscreen source
+	insmod /system/lib/goodix_touch_3F.ko

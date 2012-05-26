@@ -35,4 +35,6 @@ PRODUCT_COPY_FILES += \
 	device/allwinner/zatab/config/media_profiles.xml:system/etc/media_profiles.xml \
 	device/allwinner/zatab/config/axp20-supplyer.kl:system/usr/keylayout/axp20-supplyer.kl \
 	device/allwinner/zatab/config/sun4i-keyboard.kl:system/usr/keylayout/sun4i-keyboard.kl \
+	device/allwinner/zatab/config/Goodix-TS-board-3.idc:system/usr/idc/Goodix-TS-board-3.idc \
+	device/allwinner/zatab/goodix_touch_3F.ko:system/lib/goodix_touch_3F.ko \
 #
