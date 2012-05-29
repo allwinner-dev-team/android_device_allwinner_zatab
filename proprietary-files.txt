@@ -3,30 +3,7 @@ lib/egl/libGLESv2_mali.so
 lib/egl/libGLESv1_CM_mali.so
 lib/egl/libEGL_mali.so
 lib/libMali.so
-lib/libUMP.so # apparently there's source for libUMP
-
-# CedarX libs and dependencies (video dec/encoding)
-#lib/libstagefright_soft_cedar_h264dec.so # is it needed?
-# there's source for these!
-#lib/libcedarxosal.so
-#lib/libcedarxbase.so
-#lib/libcedarv.so
-#lib/libCedarX.so
-#lib/libCedarA.so
-#lib/libswdrm.so
-
-# Hardware HALs
-#lib/hw/audio.primary.exDroid.so # tinyalsa?
-#lib/hw/camera.exDroid.so
-#lib/hw/display.sun4i.so # what's this?
-#lib/hw/gps.exDroid.so # tab has no GPS
-#lib/hw/gralloc.sun4i.so # there's source for gralloc
-#lib/hw/hwcomposer.exDroid.so
-#lib/hw/lights.sun4i.so
-#lib/hw/sensors.exDroid.so
+lib/libUMP.so
 
 # 3G Modem RIL
 lib/liballwinner-ril.so
-
-# DRM? is this a prop?
-#lib/drm/libfwdlockengine.so
