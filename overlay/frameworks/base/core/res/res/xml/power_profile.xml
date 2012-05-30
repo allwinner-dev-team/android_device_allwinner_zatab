@@ -29,9 +29,9 @@
   <item name="wifi.scan">100</item>
   <item name="dsp.audio">36</item>
   <item name="dsp.video">153</item>
-  <item name="radio.active">1</item>
+  <item name="radio.active">0</item>
   <!-- The current consumed by the radio when it is scanning for a signal -->
-  <item name="radio.scanning">0.5</item>
+  <item name="radio.scanning">0</item>
   <item name="gps.on">1</item>
   <!-- Current consumed by the radio at different signal strengths, when paging -->
   <array name="radio.on"> <!-- Strength 0 to BINS-1 -->
