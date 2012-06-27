@@ -17,5 +17,5 @@ PRODUCT_BRAND := ZaReason
 PRODUCT_MODEL := ZaTab
 PRODUCT_MANUFACTURER := Allwinner
 
-#Set build fingerprint / ID / Product Name ect.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=zatab BUILD_FINGERPRINT="iNet/crane_evb/crane-evb:4.0.3/IML74K/20120330:eng/test-keys" PRIVATE_BUILD_DESC="crane_evb-eng 4.0.3 IML74K 20120330 test-keys"
+#Set build fingerprint / ID / Product Name etc
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=zatab BUILD_FINGERPRINT="zareason/zatab/zatab:4.0.4/IMM76I/330937:user/release-keys" PRIVATE_BUILD_DESC="zatab-user 4.0.4 IMM76I 330937 release-keys"
