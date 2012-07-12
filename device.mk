@@ -25,8 +25,8 @@ DEVICE_PACKAGE_OVERLAYS += device/allwinner/zatab/overlay
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
-        frameworks/base/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
-        frameworks/base/data/etc/android.hardware.camera.autofocus.xml:system/etc/permissions/android.hardware.camera.autofocus.xml \
+        frameworks/native/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
+        frameworks/native/data/etc/android.hardware.camera.autofocus.xml:system/etc/permissions/android.hardware.camera.autofocus.xml \
 #
 
 PRODUCT_COPY_FILES += \
