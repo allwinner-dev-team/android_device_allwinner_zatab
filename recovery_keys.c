@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 #include <linux/input.h>
 
@@ -54,7 +55,7 @@ int device_handle_key(int key_code, int visible) {
                 return SELECT_ITEM;
 
             case KEY_ESC: // BACK
-                if (ui_menu_level > 0) {
+                if (!ui_root_menu) {
                     return GO_BACK;
                 }
             }
@@ -73,7 +74,7 @@ int device_handle_key(int key_code, int visible) {
                 return SELECT_ITEM;
 
             case KEY_HOME: // BACK
-                if (ui_menu_level > 0) {
+                if (!ui_root_menu) {
                     return GO_BACK;
                 }
             }
