@@ -40,3 +40,8 @@ PRODUCT_COPY_FILES += \
 	device/allwinner/zatab/goodix_touch_3F.ko:system/lib/goodix_touch_3F.ko \
 	device/allwinner/zatab/goodix_touch_3F.ko:recovery/root/lib/goodix_touch_3F.ko \
 #
+
+# Our screen is mdpi, but we need to inherit hdpi to get missing assets
+PRODUCT_AAPT_CONFIG := large mdpi hdpi
+PRODUCT_AAPT_PREF_CONFIG := mdpi
+PRODUCT_LOCALES += mdpi hdpi
